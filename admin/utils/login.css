@@ -1,0 +1,175 @@
+/* LOGIN PAGE */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body.login-page {font-family: 'Poppins', sans-serif; background-color:#1a1a1a !important;} 
+body.login-page #login-content {-webkit-border-radius: 40px;-moz-border-radius: 40px;  border-radius: 40px; max-width:90%;}
+body.login-page #login-content h1{text-align:center}
+body.login-page #login-content label {color:#888;}
+
+	/* BUTTONS */
+	.btn {
+		border-radius: 2rem;
+		font-size: 0.7rem;
+		font-weight: bold;
+		letter-spacing: 0.04rem;
+		padding-top: 0.5rem;
+		padding-bottom: 0.7rem;
+	}
+	.btn.left-ico [class^="icon-"], .btn.left-ico [class*=" icon-"]{  margin-right: 10px; margin-left:5px;}
+	.btn.right-ico [class^="icon-"], .btn.right-ico [class*=" icon-"]{  margin-left: 10px; margin-right:5px;}
+	button[data-toggle="collapse"] [class^="icon-"],
+	button[data-toggle="collapse"] [class*=" icon-"]{display:inline-block; transform: rotate(90deg);}
+	button.collapsed[data-toggle="collapse"] [class^="icon-"],
+	button.collapsed[data-toggle="collapse"] [class*=" icon-"]{display:inline-block; transform: rotate(0deg);}
+	button[data-toggle="collapse"]:hover [class*=" icon-"]:hover{transform: rotate(90deg) !important;}
+
+	.btn [class^="icon-"], .btn [class*=" icon-"] {color:#fff;font-size: 1rem;position: relative;top: 0.2rem;}
+	.btn:hover [class^="icon-"], .btn:hover [class*=" icon-"] {color:#000;}
+	.btn-light [class^="icon-"], .btn-light[class*=" icon-"] {color:#000;}
+	.btn-dark {background-color: #1a1a1a; border-color: #1a1a1a;}
+	.btn-dark:hover {background-color:#fff; color:#1a1a1a;}
+	.btn-dark:hover span::before {color:#000}
+	.btn-primary:hover, .btn-success:hover, .btn-danger:hover {background-color:#fff; color:#1a1a1a; border-color: #1a1a1a;}
+
+	/* END BUTTONS */
+	
+	
+	/* NAV */
+	
+	.navbar {padding-top:0px;padding-left: 35px;padding-right: 45px;}
+	
+	.brand {
+    width: 120px;
+    padding: 30px 15px;
+    display: block;
+	}
+	.brand img {
+		display: block;
+		max-width: 100%;
+	}
+	.navbar {
+		display: flex;
+		justify-content: space-between;
+	}
+	.navbar a {color: white;}
+	.navbar-toggler {
+		display: none;
+		border: none;
+		height: 40px;
+		margin-top: 20px;
+		padding: 10px;
+		cursor: pointer;
+		border-radius: 10px;
+	}
+	.navbar-toggler-icon {
+		display: block;
+		height: 2px;
+		width: 30px;
+		background: #000;
+		margin-bottom: 6px;
+	}
+	.navbar-nav {
+		padding-left: 0;
+		padding-top: 5px;
+	}
+	
+	.navbar-collapse {
+		justify-content: flex-end!important;
+		-webkit-box-pack: end!important;
+		-ms-flex-pack: end!important;
+		justify-content: flex-end!important;
+	}
+	
+	.navbar-collapse ul li {
+		display: inline-block;
+		border: 1px solid transparent;
+		padding: 0 14px;
+	}
+	.navbar-collapse ul li a {
+		font-size: 18px;
+		height: 40px;
+		line-height: 40px;
+		display: block;
+		padding: 0 20px;
+		position: relative;
+	}
+	.navbar-collapse ul li.active,
+	.navbar-collapse ul li:hover {
+		border: 1px solid black;
+		border-radius: 40px;
+	}
+	.navbar-collapse ul li:last-child:hover {
+		border: 1px solid transparent;
+	}
+	.btn-nav-before {
+		position: relative;
+	}
+	.btn-nav-before:before {
+		position: absolute;
+		background-image: url("./../img/zobacz-jakie-to-proste-weo-pl.png");
+		width: 150px;
+		content: "";
+		height: 85px;
+		background-repeat: no-repeat;
+		background-size: contain;
+		top: 130%;
+		left: -30%;
+	}
+	.sm-visible {
+		display: none;
+	}
+	@media (max-width: 990px) {
+		.navbar-collapse {
+			display: none;
+		}
+		.navbar-toggler {
+			display: block;
+			z-index: 11;
+		}
+		.navbar-collapse.collapse-open {
+			display: block !important;
+			background: #000;
+			position: fixed;
+			margin-left: -2.5%;
+			width: 100%;
+			z-index: 10;
+		}
+		.navbar-collapse.collapse-open ul li {
+			display: block;
+		}
+		.navbar-collapse.collapse-open ul li a {
+			color: #fff;
+		}
+		.btn-nav-before {
+			display: none;
+		}
+		.sm-visible {
+			display: block;
+		}
+	}	
+	
+	.btn-black {
+		background: #000;
+		color: #fff;
+		font-size: 12px;
+		height: 40px;
+		padding: 0 20px;
+		line-height: 40px;
+		border-radius: 30px;
+		display: inline-block;
+		transition-duration: 0.4s;
+		font-weight: 400;
+		letter-spacing: 0px;
+	}
+		.btn-black:hover {
+		background: #605f5f;
+		color: #fff;
+	}
+	
+	
+	/* END NAV */
+
+/* END LOGIN PAGE */
+
+

@@ -1,0 +1,27 @@
+/* SVG Property Map — admin builder styles */
+.svgmap-modal-fullscreen {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+}
+.svgmap-modal-fullscreen .modal-content {
+    min-height: 100vh;
+    border-radius: 0;
+}
+#svgmap-svg polygon {
+    transition: fill-opacity 0.15s;
+}
+#svgmap-svg polygon:hover {
+    fill-opacity: 0.55;
+}
+.svgmap-shape-controls .btn {
+    padding: 3px 8px;
+    font-size: 11px;
+    line-height: 1.4;
+    border-radius: 3px;
+    white-space: nowrap;
+}
+#btn-svgmap-draw.active {
+    outline: 2px solid #ffe082;
+    outline-offset: 2px;
+}

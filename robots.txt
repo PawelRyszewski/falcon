@@ -1,0 +1,6 @@
+User-agent: *
+disallow: /admin/
+disallow: /backups/
+disallow: /class/
+disallow: /datadir/
+disallow: /smarty/
