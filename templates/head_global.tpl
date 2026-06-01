@@ -73,14 +73,26 @@
 			margin-bottom:10px !important;
 			}
 		}
+
+		@media (max-width:767px){
+			html:not(.no-js) [data-aos],
+			html:not(.no-js) [data-aos].aos-init,
+			html:not(.no-js) [data-aos].aos-animate {
+				opacity:1 !important;
+				visibility:visible !important;
+				-webkit-transform:none !important;
+				transform:none !important;
+				transition:none !important;
+			}
+		}
 		</style>
 	{/literal}	
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{$title_seo}</title>
-    <meta name="description" content="{$description}">
-    <meta name="keywords" content="{$keywords}">
+    <title>{$title_seo|escape:'html'}</title>
+    <meta name="description" content="{$description|escape:'html'}">
+    <meta name="keywords" content="{$keywords|escape:'html'}">
     {if isset($canonical_url)}<link rel="canonical" href="{$canonical_url}">{/if}
     {if isset($prev_url)}<link rel="prev" href="{$prev_url}">{/if}
     {if isset($next_url)}<link rel="next" href="{$next_url}">{/if}
@@ -114,6 +126,7 @@
     <link rel="stylesheet" href="/utils/css/bootstrap-reboot.min.css" >
 	<link rel="stylesheet" href="/utils/css/falcon-fonts.css">
 	<link rel="stylesheet" href="/utils/css/falcon-home.css">
+	<link rel="stylesheet" href="/utils/css/aos.css" media="(min-width: 768px)">
 
 	<script>
 	document.addEventListener('scroll', function() {

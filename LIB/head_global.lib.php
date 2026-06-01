@@ -52,15 +52,15 @@ if ($metaData && $metaData[0]) {
 }
 
 if (strlen($description) == 0) {
-    $description = "Profesjonalne usługi kopania stawów, odmulania, zabezpieczania brzegów oraz wynajem maszyn budowlanych";
+    $description = "Falcon Nest Poland organizuje luksusowe, muslim-friendly podróże do Polski dla gości z Bliskiego Wschodu: hotele 5★, prywatni kierowcy, kuchnia halal, concierge i program szyty na miarę.";
 }
 
 if (strlen($title) == 0) {
-    $title = "Stawy, Ogrody, Maszyny - wszystko w jednym miejscu";
+    $title = "Falcon Nest Poland - luksusowe podróże do Polski dla gości z Bliskiego Wschodu";
 }
 
 if (strlen($keywords) == 0) {
-    $keywords = "sianokiszonka, folia, folia do sianokiszonki, siloflex";
+    $keywords = "Falcon Nest Poland, luksusowe podróże do Polski, wycieczki premium Polska, muslim friendly travel Poland, halal travel Poland, podróże dla gości z Bliskiego Wschodu, prywatny kierowca Polska, hotele 5 gwiazdek Polska, concierge Polska, bespoke tours Poland";
 }
 
 if(strlen($title_seo) == 0) {

@@ -1,7 +1,15 @@
 document.addEventListener('DOMContentLoaded', function () {
   // AOS — subtelne animacje przy scrollu
   if (window.AOS) {
-    AOS.init({ duration: 800, easing: 'ease-out-cubic', once: true, offset: 70 });
+    AOS.init({
+      duration: 800,
+      easing: 'ease-out-cubic',
+      once: true,
+      offset: 70,
+      disable: function () {
+        return window.innerWidth < 768;
+      }
+    });
   }
 
   // Menu mobilne (hamburger)
