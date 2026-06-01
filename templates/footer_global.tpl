@@ -38,34 +38,22 @@
 </div>
 
 {literal}
-	<script src="/utils/js/aos.js"></script>
-	<script src="/utils/js/main.js"></script>
-
-
-	<script>
-	  if (window.innerWidth >= 768) {
-		var link = document.createElement('link');
-		link.rel = 'stylesheet';
-		link.href = '/utils/css/aos.css';
-		document.head.appendChild(link);
-
-		var script = document.createElement('script');
-		script.src = '/utils/js/aos.js';
-		script.onload = function () {
-		  AOS.init({
-			offset: 120,
-			delay: 0,
-			duration: 800,
-			easing: 'ease-in-out',
-			once: true,
-		  });
-		};
-		document.head.appendChild(script);
-	  }
-	</script>
-
 	<script src="/utils/js/jquery.js"></script>
 	<script src="/utils/js/aos.js"></script>
+	<script>
+	  if (window.AOS) {
+		AOS.init({
+		  offset: 120,
+		  delay: 0,
+		  duration: 800,
+		  easing: 'ease-in-out',
+		  once: true,
+		  disable: function () {
+			return window.innerWidth < 768;
+		  }
+		});
+	  }
+	</script>
 {/literal}
 </main>
 </body>
