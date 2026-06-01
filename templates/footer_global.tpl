@@ -38,18 +38,8 @@
 </div>
 
 {literal}
-	<script>
-		const shouldHideCookiesAlert = localStorage.getItem('shouldHideCookiesAlert');
-
-		if (!shouldHideCookiesAlert) {
-		$('#cookies-info').css('display','block');
-		}
-
-		function closeCookiesInfo() {
-		$('#cookies-info').css('display','none');
-		localStorage.setItem('shouldHideCookiesAlert', true);
-		}
-	</script>
+	<script src="/utils/js/aos.js"></script>
+	<script src="/utils/js/main.js"></script>
 
 
 	<script>

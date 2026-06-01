@@ -1,8 +1,8 @@
 <?php
-putenv('HOST=');
-putenv('DB_NAME=');
-putenv('USERNAME=');
-putenv('PASSWORD=');
+putenv('HOST=mekros.mysql.dhosting.pl');
+putenv('DB_NAME=nei4ja_falconsk');
+putenv('USERNAME=dahz9c_falconsk');
+putenv('PASSWORD=yiuCaiRahgh3');
 putenv('ENVIRONMENT=');
 
 putenv('MAIL_FROM=pawelr@mekros.com');

@@ -112,19 +112,8 @@
 	<meta name="theme-color" content="{if isset($theme_color)}{$theme_color}{else}#091423{/if}">
 
     <link rel="stylesheet" href="/utils/css/bootstrap-reboot.min.css" >
-    <link rel="stylesheet" href="/utils/css/bootstrap.min.css" >
-	<link rel="stylesheet" href="/utils/css/style-min.css">	
-	<link rel="stylesheet" href="/utils/css/wow-ksef.css">
-	<link rel="stylesheet" href="/utils/css/aos.css">	
-	{if $page.id==0}
 	<link rel="stylesheet" href="/utils/css/falcon-fonts.css">
 	<link rel="stylesheet" href="/utils/css/falcon-home.css">
-	{/if}
-	
-	<script src="/utils/js/jquery.js"></script>
-	<script src="/utils/js/aos.js"></script>
-    <script defer src="/utils/js/functions.js"></script>	
-	<script defer src="/utils/js/bootstrap.bundle.min.js"></script>	
 
 	<script>
 	document.addEventListener('scroll', function() {

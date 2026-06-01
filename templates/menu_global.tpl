@@ -1,118 +1,77 @@
-<header class="container-fluid px-0 ekd-header{if $page.id==0} ekd-header--home{/if}">
-  <div class="container ekd-header__container">
-    <nav class="navbar navbar-expand-lg navbar-light ekd-nav{if $page.id==0} ekd-nav--home{/if}" aria-label="Menu główne">
-      <a class="navbar-brand ekd-nav__brand" href="/" aria-label="EKO-DOM - strona główna">
-        <img class="ekd-nav__logo" src="/utils/images/logo.png" alt="EKO-DOM" width="164" height="32">
-      </a>
-
-      <button class="navbar-toggler ekd-nav__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Pokaż/ukryj menu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse ekd-nav__collapse" id="navbarMenu">
-        <ul class="navbar-nav ekd-nav__menu{if $page.id==0} ekd-nav__menu--home{/if} mb-2 mb-lg-0 ms-auto align-items-lg-center">
-			{if $page.id != 0}
-          <li class="nav-item ekd-nav__item">
-            <a class="nav-link ekd-nav__link" href="/">Start</a>
-          </li>
-			{/if}
-			
-         <li class="nav-item ekd-nav__item ekd-nav__item--has-submenu">
-            <a class="nav-link ekd-nav__link ekd-nav__link--parent" href="/inwestycje">Inwestycje</a>
-            <ul class="submenu ekd-nav__submenu">
-              {if $investments_in_progress}
-              <li class="submenu__item submenu__item--group">
-                <span class="submenu__group-label">W realizacji</span>
-                <ul class="submenu ekd-nav__submenu--nested">
-                  {foreach $investments_in_progress as $investment}
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="{$investment.url}">{$investment.title}</a>
-                  </li>
-                  {/foreach}
-                </ul>
-              </li>
-              {/if}
-              {if $investments_completed}
-              <li class="submenu__item submenu__item--group">
-                <span class="submenu__group-label">Zrealizowane</span>
-                <ul class="submenu ekd-nav__submenu--nested">
-                  {foreach $investments_completed as $investment}
-                  <li class="submenu__item">
-                    <a class="submenu__link" href="{$investment.url}">{$investment.title}</a>
-                  </li>
-                  {/foreach}
-                </ul>
-              </li>
-              {/if}
-            </ul>
-          </li>
-
-          <li class="nav-item ekd-nav__item">
-            <a class="nav-link ekd-nav__link" href="/developer">Developer</a>
-          </li>
-
-          <li class="nav-item ekd-nav__item">
-            <a class="nav-link ekd-nav__link" href="/kontakt">Kontakt</a>
-          </li>
-
-          <li class="nav-item ekd-nav__item ekd-nav__item--cta{if $page.id==0} ekd-nav__item--cta-home{/if} mt-2 mt-lg-0">
-            <a class="btn btn-primary ekd-nav__cta{if $page.id==0} ekd-nav__cta--home{/if}" href="#contact-form">Umów spotkanie</a>
-          </li>
-        </ul>
+{*<header class="container-fluid">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="/" alt="Strona główna" title="Strona główna">
+          <img src="/utils/images/logo.svg" alt="Profesjonalne usługi kopania stawów, odmulania, zabezpieczania brzegów oraz wynajem maszyn budowlanych" class="py-2" style="width: 300px; height: auto;" title="Profesjonalne usługi kopania stawów, odmulania, zabezpieczania brzegów oraz wynajem maszyn budowlanych">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Przełącz nawigację">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/stawy" id="stawyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" alt="Stawy" title="Stawy">
+                Stawy
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="stawyDropdown">
+                <li><a class="dropdown-item" href="/kopanie-stawow" alt="Kopanie stawow" title="Kopanie stawow">Kopanie</a></li>
+                <li><a class="dropdown-item" href="/odmulanie-stawow" alt="Odmulanie stawow" title="Odmulanie stawow">Odmulanie</a></li>
+                <li><a class="dropdown-item" href="/zabezpieczanie-brzegow-stawow" alt="Zabezpieczanie brzegów stawow" title="Zabezpieczanie brzegów stawow">Zabezpieczanie brzegów</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/dzialki" id="dzialkiDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" alt="Działki" title="Działki">
+                Działki
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dzialkiDropdown">
+                <li><a class="dropdown-item" href="/mulczowanie-dzialek" alt="Mulczowanie dzialek" title="Mulczowanie dzialek">Mulczowanie dzialek</a></li>
+                <li><a class="dropdown-item" href="/wycinka-drzew-na-dzialce" alt="Wycinka drzew na dzialce" title="Wycinka drzew na dzialce">Wycinka drzew</a></li>
+                <li><a class="dropdown-item" href="/brukarstwo" alt="Brukarstwo" title="Brukarstwo">Brukarstwo</a></li>
+                <li><a class="dropdown-item" href="/koszenie-trawy" alt="Koszenie trawy" title="Koszenie trawy">Koszenie trawy</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/drenaz" id="drenazDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" alt="Drenaż" title="Drenaż">
+                Drenaż
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="drenazDropdown">
+                <li><a class="dropdown-item" href="/drenaz-pol" alt="Drenaż pól" title="Drenaż pól">Drenaż pól</a></li>
+                <li><a class="dropdown-item" href="/drenaz-dzialek" alt="Drenaż działek" title="Drenaż działek">Drenaż działek</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/ogrody" id="ogrodyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" alt="Ogrody" title="Ogrody">
+                Ogrody
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="ogrodyDropdown">
+                <li><a class="dropdown-item" href="/projektowanie-ogrodow" alt="Projektowanie ogrodow" title="Projektowanie ogrodow">Projektowanie</a></li>
+                <li><a class="dropdown-item" href="/wykonywanie-ogrodow" alt="Wykonywanie ogrodow" title="Wykonywanie ogrodow">Wykonywanie</a></li>
+                <li><a class="dropdown-item" href="/systemy-podlewania-w-ogrodach" alt="Systemy podlewania w ogrodach" title="Systemy podlewania w ogrodach">Systemy podlewania</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/maszyny" id="maszynyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" alt="Maszyny" title="Maszyny">
+                Maszyny
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="maszynyDropdown">
+                <li><a class="dropdown-item" href="/sprzedaz-maszyn" alt="Sprzedaż maszyn" title="Sprzedaż maszyn">Sprzedaż</a></li>
+                <li><a class="dropdown-item" href="/wypozyczalnia-maszyn" alt="Wypożyczalnia maszyn" title="Wypożyczalnia maszyn">Wypożyczalnia</a></li>
+              </ul>
+            </li>
+            <li class="nav-item one">
+              <a class="nav-link" href="/kontakt" alt="Kontakt" title="Kontakt">Kontakt</a>
+            </li>
+            <li class="nav-item contact">
+              <p>
+                <img src="/utils/images/phone.svg" style="max-width:14px;" alt="telefon do nas" title="telefon do nas"> 
+                +48 693 433 111
+              </p>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   </div>
 </header>
-
-
-<script>
-(function () {
-  function isMobile() { return window.innerWidth < 992; }
- 
-  // Mobile: tap "Inwestycje" to toggle L1 submenu
-  var parentLink = document.querySelector('.ekd-nav__link--parent');
-  if (parentLink) {
-    parentLink.addEventListener('click', function (e) {
-      if (!isMobile()) return;
-      e.preventDefault();
-      var li = this.closest('.ekd-nav__item--has-submenu');
-      if (li) li.classList.toggle('is-open');
-    });
-  }
- 
-  // Mobile: tap group label to toggle L2 submenu
-  document.querySelectorAll('.submenu__group-label').forEach(function (label) {
-    label.addEventListener('click', function () {
-      if (!isMobile()) return;
-      var li = this.closest('.submenu__item--group');
-      if (li) li.classList.toggle('is-open');
-    });
-  });
- 
-  // Close submenus when navbar collapses
-  var navbarToggler = document.querySelector('.ekd-nav__toggler');
-  if (navbarToggler) {
-    navbarToggler.addEventListener('click', function () {
-      document.querySelectorAll('.ekd-nav__item--has-submenu').forEach(function (el) {
-        el.classList.remove('is-open');
-      });
-      document.querySelectorAll('.submenu__item--group').forEach(function (el) {
-        el.classList.remove('is-open');
-      });
-    });
-  }
- 
-  // Close navbar when tapping outside on mobile
-  document.addEventListener('click', function (e) {
-    if (!isMobile()) return;
-    var nav = document.querySelector('.ekd-nav');
-    if (!nav || nav.contains(e.target)) return;
-    var collapseEl = document.getElementById('navbarMenu');
-    if (collapseEl && collapseEl.classList.contains('show')) {
-      var bsCollapse = bootstrap.Collapse.getInstance(collapseEl);
-      if (bsCollapse) bsCollapse.hide();
-    }
-  });
-  
-}());
-</script>
+*}

@@ -10,6 +10,7 @@
       </svg>
       <span class="brand-txt"><b>FALCO<span>NEST</span></b><small>Luxury &amp; Bespoke Tours</small></span>
     </a>
+	<a class="btn btn-gold only-mobile" href="#kontakt">Zapytaj o ofertę</a>
     <nav class="nav" id="nav">
       <a href="#dlaczego">Dlaczego my</a>
       <a href="#polska">Polska</a>
@@ -70,13 +71,13 @@
       <p>Krystaliczne jeziora, dzikie lasy, łagodne góry i bezkresne łąki w chłodnym, europejskim klimacie. To, czego brakuje w pustynnym pejzażu — tutaj na wyciągnięcie ręki.</p>
     </div>
     <div class="gallery">
-      <div class="gtile tall" data-aos="fade-up"><img src="/0-wdrozyc/images/pkg-summer.jpg" alt="Krystaliczne jezioro w górach"><div class="cap"><small>Jeziora</small><h4>Krystaliczne wody Mazur i gór</h4></div></div>
-      <div class="gtile" data-aos="fade-up"><img src="/0-wdrozyc/images/nat-forest.jpg" alt="Las"><div class="cap"><small>Lasy</small><h4>Dzikie, zielone lasy</h4></div></div>
-      <div class="gtile" data-aos="fade-up"><img src="/0-wdrozyc/images/nat-horses.jpg" alt="Konie na pastwisku"><div class="cap"><small>Pastwiska</small><h4>Konie i otwarte łąki</h4></div></div>
-      <div class="gtile" data-aos="fade-up"><img src="/0-wdrozyc/images/nat-green.jpg" alt="Zielone wzgórza"><div class="cap"><small>Zieleń</small><h4>Zielone doliny</h4></div></div>
-      <div class="gtile tall" data-aos="fade-up"><img src="/0-wdrozyc/images/nat-horse-white.jpg" alt="Koń w galopie"><div class="cap"><small>Wolność</small><h4>Przestrzeń i spokój</h4></div></div>
-      <div class="gtile" data-aos="fade-up"><img src="/0-wdrozyc/images/nat-mountains.jpg" alt="Góry"><div class="cap"><small>Góry</small><h4>Majestat Tatr</h4></div></div>
-      <div class="gtile" data-aos="fade-up"><img src="/0-wdrozyc/images/nat-meadow.jpg" alt="Łąka"><div class="cap"><small>Natura</small><h4>Bezkresne łąki</h4></div></div>
+      <div class="gtile tall" data-aos="fade-up"><img src="/utils/images/pkg-summer.jpg" alt="Krystaliczne jezioro w górach"><div class="cap"><small>Jeziora</small><h4>Krystaliczne wody Mazur i gór</h4></div></div>
+      <div class="gtile" data-aos="fade-up"><img src="/utils/images/nat-forest.jpg" alt="Las"><div class="cap"><small>Lasy</small><h4>Dzikie, zielone lasy</h4></div></div>
+      <div class="gtile" data-aos="fade-up"><img src="/utils/images/nat-horses.jpg" alt="Konie na pastwisku"><div class="cap"><small>Pastwiska</small><h4>Konie i otwarte łąki</h4></div></div>
+      <div class="gtile" data-aos="fade-up"><img src="/utils/images/nat-green.jpg" alt="Zielone wzgórza"><div class="cap"><small>Zieleń</small><h4>Zielone doliny</h4></div></div>
+      <div class="gtile tall" data-aos="fade-up"><img src="/utils/images/nat-horse-white.jpg" alt="Koń w galopie"><div class="cap"><small>Wolność</small><h4>Przestrzeń i spokój</h4></div></div>
+      <div class="gtile" data-aos="fade-up"><img src="/utils/images/nat-mountains.jpg" alt="Góry"><div class="cap"><small>Góry</small><h4>Majestat Tatr</h4></div></div>
+      <div class="gtile" data-aos="fade-up"><img src="/utils/images/nat-meadow.jpg" alt="Łąka"><div class="cap"><small>Natura</small><h4>Bezkresne łąki</h4></div></div>
     </div>
   </div>
 </section>
@@ -112,7 +113,7 @@
     <div class="pkg-grid">
 
       <div class="pkg" data-aos="fade-up">
-        <div class="pkg-img"><img src="/0-wdrozyc/images/pkg-winter.jpg" alt="Zimowe Tatry"><span class="pkg-season">Zima · Egzotyka śniegu</span></div>
+        <div class="pkg-img"><img src="/utils/images/pkg-winter.jpg" alt="Zimowe Tatry"><span class="pkg-season">Zima · Egzotyka śniegu</span></div>
         <div class="pkg-top"><h3>Białe Tatry</h3><div class="pkg-days">6 dni / 5 nocy · Zakopane &amp; Kraków</div></div>
         <div class="pkg-body"><ul>
           <li>Pierwszy raz w śniegu — sanie, kulig, nartostrady</li>
@@ -125,7 +126,7 @@
       </div>
 
       <div class="pkg featured" data-aos="fade-up" data-aos-delay="80">
-        <div class="pkg-img"><span class="pkg-badge">Bestseller</span><img src="/0-wdrozyc/images/pkg-summer.jpg" alt="Letnie jeziora i góry"><span class="pkg-season">Lato · Ucieczka od upału</span></div>
+        <div class="pkg-img"><span class="pkg-badge">Bestseller</span><img src="/utils/images/pkg-summer.jpg" alt="Letnie jeziora i góry"><span class="pkg-season">Lato · Ucieczka od upału</span></div>
         <div class="pkg-top"><h3>Zielone Lato</h3><div class="pkg-days">7 dni / 6 nocy · Góry &amp; jeziora</div></div>
         <div class="pkg-body"><ul>
           <li>Chłodny klimat 20–25°C zamiast 45°C w domu</li>
@@ -138,7 +139,7 @@
       </div>
 
       <div class="pkg" data-aos="fade-up" data-aos-delay="160">
-        <div class="pkg-img"><img src="/0-wdrozyc/images/pkg-city.jpg" alt="Kraków - Rynek Główny"><span class="pkg-season">Cały rok · Miasto &amp; kultura</span></div>
+        <div class="pkg-img"><img src="/utils/images/pkg-city.jpg" alt="Kraków - Rynek Główny"><span class="pkg-season">Cały rok · Miasto &amp; kultura</span></div>
         <div class="pkg-top"><h3>Korona Polski</h3><div class="pkg-days">5 dni / 4 noce · Warszawa &amp; Kraków</div></div>
         <div class="pkg-body"><ul>
           <li>Zabytki, zamki królewskie i starówki UNESCO</li>
@@ -187,14 +188,14 @@
   <div class="wrap">
     <div class="sec-head" data-aos="fade-up"><span class="eyebrow">Co pokochacie w Polsce</span><h2>Doświadczenia szyte pod Wasz gust</h2></div>
     <div class="attr-grid">
-      <div class="attr" data-aos="fade-up"><img src="/0-wdrozyc/images/nat-mountains.jpg" alt="Tatry"><div class="cap"><h4>Góry i Tatry</h4><p>Szczyty, doliny i widoki, jakich nie ma w Zatoce.</p></div></div>
-      <div class="attr" data-aos="fade-up" data-aos-delay="60"><img src="/0-wdrozyc/images/pkg-summer.jpg" alt="Jeziora Mazur"><div class="cap"><h4>Jeziora Mazur</h4><p>Rejsy i krystaliczna woda Krainy Tysiąca Jezior.</p></div></div>
-      <div class="attr" data-aos="fade-up" data-aos-delay="120"><img src="/0-wdrozyc/images/nat-forest.jpg" alt="Lasy"><div class="cap"><h4>Lasy i natura</h4><p>Dzikie puszcze, spacery i czyste, chłodne powietrze.</p></div></div>
-      <div class="attr" data-aos="fade-up" data-aos-delay="180"><img src="/0-wdrozyc/images/nat-horses.jpg" alt="Konie"><div class="cap"><h4>Konie i pastwiska</h4><p>Stadniny, przejażdżki i sielski klimat wsi.</p></div></div>
-      <div class="attr" data-aos="fade-up"><img src="/0-wdrozyc/images/nat-green.jpg" alt="Zielone doliny"><div class="cap"><h4>Zielone doliny</h4><p>Łagodne wzgórza i bujna zieleń w lecie.</p></div></div>
-      <div class="attr" data-aos="fade-up" data-aos-delay="60"><img src="/0-wdrozyc/images/spa.jpg" alt="Termy i SPA"><div class="cap"><h4>Termy &amp; SPA</h4><p>Gorące baseny mineralne i prywatne strefy wellness.</p></div></div>
-      <div class="attr" data-aos="fade-up" data-aos-delay="120"><img src="/0-wdrozyc/images/oldtown.jpg" alt="Starówki i kultura"><div class="cap"><h4>Zamki i kultura</h4><p>Starówki UNESCO, zamki królewskie, zakupy premium.</p></div></div>
-      <div class="attr" data-aos="fade-up" data-aos-delay="180"><img src="/0-wdrozyc/images/baltic.jpg" alt="Bałtyk"><div class="cap"><h4>Bałtyk i Trójmiasto</h4><p>Plaże, rejsy i nadmorski klimat północy.</p></div></div>
+      <div class="attr" data-aos="fade-up"><img src="/utils/images/nat-mountains.jpg" alt="Tatry"><div class="cap"><h4>Góry i Tatry</h4><p>Szczyty, doliny i widoki, jakich nie ma w Zatoce.</p></div></div>
+      <div class="attr" data-aos="fade-up" data-aos-delay="60"><img src="/utils/images/pkg-summer.jpg" alt="Jeziora Mazur"><div class="cap"><h4>Jeziora Mazur</h4><p>Rejsy i krystaliczna woda Krainy Tysiąca Jezior.</p></div></div>
+      <div class="attr" data-aos="fade-up" data-aos-delay="120"><img src="/utils/images/nat-forest.jpg" alt="Lasy"><div class="cap"><h4>Lasy i natura</h4><p>Dzikie puszcze, spacery i czyste, chłodne powietrze.</p></div></div>
+      <div class="attr" data-aos="fade-up" data-aos-delay="180"><img src="/utils/images/nat-horses.jpg" alt="Konie"><div class="cap"><h4>Konie i pastwiska</h4><p>Stadniny, przejażdżki i sielski klimat wsi.</p></div></div>
+      <div class="attr" data-aos="fade-up"><img src="/utils/images/nat-green.jpg" alt="Zielone doliny"><div class="cap"><h4>Zielone doliny</h4><p>Łagodne wzgórza i bujna zieleń w lecie.</p></div></div>
+      <div class="attr" data-aos="fade-up" data-aos-delay="60"><img src="/utils/images/spa.jpg" alt="Termy i SPA"><div class="cap"><h4>Termy &amp; SPA</h4><p>Gorące baseny mineralne i prywatne strefy wellness.</p></div></div>
+      <div class="attr" data-aos="fade-up" data-aos-delay="120"><img src="/utils/images/oldtown.jpg" alt="Starówki i kultura"><div class="cap"><h4>Zamki i kultura</h4><p>Starówki UNESCO, zamki królewskie, zakupy premium.</p></div></div>
+      <div class="attr" data-aos="fade-up" data-aos-delay="180"><img src="/utils/images/baltic.jpg" alt="Bałtyk"><div class="cap"><h4>Bałtyk i Trójmiasto</h4><p>Plaże, rejsy i nadmorski klimat północy.</p></div></div>
     </div>
   </div>
 </section>
