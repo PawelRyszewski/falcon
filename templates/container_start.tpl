@@ -32,7 +32,7 @@
   <div class="wrap">
     <span class="eyebrow">Polska &nbsp;·&nbsp; Premium &nbsp;·&nbsp; Muslim-friendly</span>
     <h1>Odkryj Polskę<br>w stylu, na jaki <em>zasługujesz</em></h1>
-    <p>Ekskluzywne, w pełni zorganizowane podróże do Polski dla gości z Bliskiego Wschodu — z poszanowaniem Waszej kultury, kuchnią halal i obsługą w standardzie premium na każdym kroku.</p>
+    <p>Ekskluzywne, w pełni zorganizowane transporty po Polsce dla gości z Bliskiego Wschodu — z poszanowaniem Waszej kultury, kuchnią halal i obsługą w standardzie premium na każdym kroku.</p>
     <div class="hero-cta">
       <a class="btn btn-gold" href="#pakiety">Zobacz pakiety</a>
       <a class="btn btn-ghost" href="#kontakt">Oferta indywidualna</a>
@@ -52,7 +52,7 @@
       <p>Każdą podróż projektujemy wokół wartości, które są dla Was najważniejsze. To nie dodatki — to fundament naszej obsługi.</p>
     </div>
     <div class="grid-3">
-      <div class="card" data-aos="fade-up"><svg class="ic" viewBox="0 0 48 48" fill="none"><path d="M24 4l4 8 9 1-6.5 6.5L32 37l-8-4.5L16 37l1.5-9.5L11 21l9-1z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"></path><circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.2" opacity=".4"></circle></svg><h3>Szacunek dla kultury</h3><p>Każdy element podróży planujemy z pełnym poszanowaniem tradycji i wartości muzułmańskich — dyskretnie i z wyczuciem.</p></div>
+      <div class="card" data-aos="fade-up"><svg class="ic" viewBox="0 0 48 48" fill="none"><path d="M24 4l4 8 9 1-6.5 6.5L32 37l-8-4.5L16 37l1.5-9.5L11 21l9-1z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"></path><circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.2" opacity=".4"></circle></svg><h3>Szacunek dla kultury</h3><p>Każda chwila spędzona z nami sprawi, że poczujecie pełny szacunek do tradycji oraz wartości muzułmańskich.</p></div>
       <div class="card" data-aos="fade-up" data-aos-delay="80"><svg class="ic" viewBox="0 0 48 48" fill="none"><path d="M14 6v14a6 6 0 006 6v16M14 6v8M18 6v8M34 6c-3 0-5 4-5 10s2 8 5 8v18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg><h3>Kuchnia halal</h3><p>Wyłącznie restauracje i posiłki z certyfikatem halal. Dbamy o najwyższą jakość każdego dania przez całą podróż.</p></div>
       <div class="card" data-aos="fade-up" data-aos-delay="160"><svg class="ic" viewBox="0 0 48 48" fill="none"><rect x="6" y="20" width="36" height="14" rx="3" stroke="currentColor" stroke-width="1.6"></rect><path d="M12 20l4-8h16l4 8M14 34v4M34 34v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path><circle cx="15" cy="27" r="2.5" fill="currentColor"></circle><circle cx="33" cy="27" r="2.5" fill="currentColor"></circle></svg><h3>Kierowcy muzułmanie</h3><p>Profesjonalni, anglo- i arabskojęzyczni kierowcy wyznania muzułmańskiego, którzy rozumieją Wasze potrzeby.</p></div>
       <div class="card" data-aos="fade-up"><svg class="ic" viewBox="0 0 48 48" fill="none"><path d="M24 6c0 8 8 10 8 18a8 8 0 01-16 0c0-8 8-10 8-18z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"></path><path d="M12 38h24M16 42h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path></svg><h3>Praktyki religijne</h3><p>Zapewniamy czas i miejsce na modlitwę, kierunek qibla oraz dostęp do meczetów i sal modlitewnych w trasie.</p></div>
@@ -158,7 +158,7 @@
       <div class="grand-in">
         <div class="grand-copy">
           <span class="pkg-season pkg-season-static">Podróż marzeń · 10–12 dni</span>
-          <h3>Wielka Podróż po Polsce</h3>
+          <h3>Zjedźcie z nami Polskę wzdłuż i wszerz</h3>
           <p>Warszawa, Kraków, Tatry i Trójmiasto nad Bałtykiem — kompletne doświadczenie Polski, od miast po góry i morze. W pełni prywatne, w rytmie Waszej rodziny.</p>
         </div>
         <div class="grand-price grand-price-right">
@@ -218,7 +218,7 @@
   <div class="cta-bg"></div><div class="cta-veil"></div>
   <div class="wrap">
     <span class="eyebrow">Zaczynamy?</span>
-    <h2>Zaprojektujmy Waszą<br><em>idealną podróż do Polski</em></h2>
+    <h2>Pozwólcie zabrać się na przygodę<br><em>pełną widoków i atrakcji, jakich nie doświadczycie nigdzie indziej</em></h2>
     <p>Napiszcie do nas — przygotujemy spersonalizowaną propozycję bez zobowiązań. Odpowiadamy szybko, także po arabsku, na WhatsApp.</p>
     <div class="contact-row">
       <a class="contact-card" href="https://wa.me/48507772121" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.5 15.2L2 22l4.9-1.5A10 10 0 1012 2zm0 18a8 8 0 01-4.1-1.1l-.3-.2-2.9.9.9-2.8-.2-.3A8 8 0 1112 20zm4.4-6c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1-.2.2-.6.8-.8.9-.1.2-.3.2-.5.1-.7-.3-1.4-.6-2-1.4-.4-.5-.8-1-.9-1.2-.1-.2 0-.4.1-.5l.4-.4c.1-.1.2-.3.2-.4 0-.2 0-.3-.1-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.4 0-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.4c.1.2 1.6 2.5 4 3.4.6.3 1 .4 1.4.5.6.2 1.1.2 1.5.1.5-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1z"></path></svg>WhatsApp: +48 507 772 121</a>
