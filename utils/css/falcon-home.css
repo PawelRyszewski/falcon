@@ -7,7 +7,7 @@
   html{scroll-behavior:smooth}
   .falcon-landing{font-family:'Jost',sans-serif;background:var(--black);color:var(--text);line-height:1.7;font-weight:300;overflow-x:hidden}
   .falcon-landing h1,.falcon-landing h2,.falcon-landing h3,.falcon-landing h4{font-family:'Cormorant Garamond',serif;font-weight:600;line-height:1.14;letter-spacing:.01em}
-  .falcon-landing img{display:block;max-width:100%}
+  .falcon-landing img{display:block;max-width:100%; }
   .falcon-landing .wrap{max-width:1180px;margin:0 auto;padding:0 28px}
   .falcon-landing .eyebrow{font-size:13px;letter-spacing:5px;text-transform:uppercase;color:var(--gold-2)}
   .falcon-landing .btn{display:inline-block;text-decoration:none;cursor:pointer;border:none;font-family:'Jost',sans-serif;font-size:13px;letter-spacing:2px;text-transform:uppercase;padding:13px 26px;border-radius:2px;transition:.25s}
@@ -17,9 +17,10 @@
   .falcon-landing .btn-ghost:hover{background:rgba(201,162,75,.12)}
 
   /* ===== Top bar ===== */
-  .falcon-landing .topbar{position:sticky;top:0;z-index:50;background:rgba(10,10,10,.82);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .falcon-landing .topbar{position: fixed; top: 0; left: 0; background: rgba(10, 10, 10, .82); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); width: 100%; z-index: 99;}
   .falcon-landing .topbar .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:14px;padding-bottom:14px}
-  .falcon-landing .brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+  .falcon-landing .brand{display:flex;align-items:center;gap:12px;text-decoration:none; max-width:230px;}
+  .falcon-landing .brand img{max-height:48px;}
   .falcon-landing .brand-mark{width:38px;height:38px;flex:none}
   .falcon-landing .brand-txt{display:flex;flex-direction:column;line-height:1}
   .falcon-landing .brand-txt b{font-family:'Cormorant Garamond',serif;font-size:22px;letter-spacing:3px;color:var(--cream);font-weight:700}
@@ -36,19 +37,25 @@
   .falcon-landing .nav-toggle.open span:nth-child(1){transform:translateY(6px) rotate(45deg)}
   .falcon-landing .nav-toggle.open span:nth-child(2){opacity:0}
   .falcon-landing .nav-toggle.open span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+  .only-mobile {display:none !important;}
+  
   @media(max-width:900px){
+	.falcon-landing .brand img {max-height:39px}
+	.only-mobile {display:initial !important;}
     .falcon-landing .topbar > .wrap > .btn-gold{display:none}
-    .falcon-landing .nav-toggle{display:block;order:3}
+    .falcon-landing .nav-toggle{display:none;order:3}
     .falcon-landing .nav{position:fixed;inset:65px 0 auto 0;flex-direction:column;gap:0;background:rgba(10,10,10,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);
          max-height:0;overflow:hidden;transition:max-height .4s ease;padding:0 28px}
     .falcon-landing .nav.open{max-height:560px;padding:8px 28px 26px}
     .falcon-landing .nav a{width:100%;padding:15px 0;border-bottom:1px solid rgba(201,162,75,.12);font-size:15px}
     .falcon-landing .nav .btn-gold{display:block;width:100%;text-align:center;margin-top:18px;color:#1a1304;border-bottom:none}
+	.falcon-landing .wrap {padding: 0 8px;}
+	.falcon-landing .btn {padding: 6px 8px; font-size:10px;letter-spacing:initial}
   }
 
   /* ===== Hero ===== */
   .falcon-landing .hero{position:relative;min-height:94vh;display:flex;align-items:center;overflow:hidden}
-  .falcon-landing .hero-bg{position:absolute;inset:0;background:url("/0-wdrozyc/images/pkg-summer.jpg") center/cover no-repeat;transform:scale(1.05);animation:slowzoom 22s ease-in-out infinite alternate}
+  .falcon-landing .hero-bg{position:absolute;inset:0;background:url("../images/pkg-summer.jpg") center/cover no-repeat;transform:scale(1.05);animation:slowzoom 22s ease-in-out infinite alternate}
   @keyframes slowzoom{to{transform:scale(1.16)}}
   .falcon-landing .hero-veil{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,10,.62) 0%,rgba(10,10,10,.45) 40%,rgba(10,10,10,.82) 100%)}
   .falcon-landing .hero .wrap{position:relative;z-index:2;text-align:center;padding:90px 28px}
@@ -131,7 +138,7 @@
 
   /* ===== Grand tour banner ===== */
   .falcon-landing .grand{position:relative;border-radius:10px;overflow:hidden;margin-top:26px;border:1px solid var(--line)}
-  .falcon-landing .grand-bg{position:absolute;inset:0;background:url("/0-wdrozyc/images/pkg-city.jpg") center/cover}
+  .falcon-landing .grand-bg{position:absolute;inset:0;background:url("../images/pkg-city.jpg") center/cover}
   .falcon-landing .grand-veil{position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,8,8,.9) 30%,rgba(8,8,8,.45))}
   .falcon-landing .grand-in{position:relative;z-index:2;display:flex;gap:30px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:42px 40px}
   .falcon-landing .grand-in h3{font-size:32px;color:#fff}
@@ -172,7 +179,7 @@
 
   /* ===== CTA ===== */
   .falcon-landing .cta{position:relative;text-align:center;overflow:hidden}
-  .falcon-landing .cta-bg{position:absolute;inset:0;background:url("/0-wdrozyc/images/oldtown.jpg") center/cover}
+  .falcon-landing .cta-bg{position:absolute;inset:0;background:url("../images/oldtown.jpg") center/cover}
   .falcon-landing .cta-veil{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,10,.82),rgba(10,10,10,.92))}
   .falcon-landing .cta .wrap{position:relative;z-index:2}
   .falcon-landing .cta h2{font-size:clamp(32px,5vw,56px);color:#fff}
@@ -200,6 +207,32 @@
 .falcon-landing .btn-grand-plan{margin-top:14px}
 @media(max-width:640px){.falcon-landing .grand-price-right{text-align:left}}
 
+.lang * {
+	list-style:none;
+	display:flex;
+}
+.lang li {
+	width:20px;
+	height:20px;
+	background-size: 15px 15px !important;
+	background-position:center center !important;
+	background-repeat:no-repeat !important;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out allow-discrete;
+}
+.lang li:hover {
+	background-size: 20px 20px !important;
+}
+.lang .pl {
+	background: url(../images/flags/pl.png);
+}
+.lang .eng {
+	background: url(../images/flags/uk.png);
+}
+.lang a {
+	width:20px;
+	height:20px;
+}
 
 /* Hide the legacy EKO-DOM chrome on the Falcon Nest homepage; Falcon landing provides its own navigation and footer. */
 .ekd-header--home,

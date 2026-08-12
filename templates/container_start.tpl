@@ -2,13 +2,14 @@
 <!-- ===== TOP BAR ===== -->
 <header class="topbar">
   <div class="wrap">
-    <a class="brand" href="#top">
-      <svg class="brand-mark" viewBox="0 0 64 64" fill="none">
+    <a class="brand" href="/">
+	<img src="/utils/images/logo-new.png" />
+	{*<svg class="brand-mark" viewBox="0 0 64 64" fill="none">
         <path d="M6 44c10-2 16-10 26-22 10 12 16 20 26 22-8 4-18 6-26 6S14 48 6 44z" fill="#c9a24b" opacity=".25"></path>
         <path d="M8 42c9-3 15-12 24-23 9 11 15 20 24 23" stroke="#e7c976" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
         <path d="M20 42c5-4 8-9 12-15 4 6 7 11 12 15" stroke="#c9a24b" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
       </svg>
-      <span class="brand-txt"><b>FALCO<span>NEST</span></b><small>Luxury &amp; Bespoke Tours</small></span>
+	<span class="brand-txt"><b>FALCO<span>NEST</span></b><small>Luxury &amp; Bespoke Tours</small></span>*}
     </a>
 	<a class="btn btn-gold only-mobile" href="#kontakt">Zapytaj o ofertę</a>
     <nav class="nav" id="nav">
@@ -18,6 +19,10 @@
       <a href="#pakiety">Pakiety</a>
       <a href="#atrakcje">Atrakcje</a>
       <a href="#kontakt">Kontakt</a>
+	  <ul class="lang">
+		<li class="pl" title="polish"><a href="/"></a></li>
+		<li class="eng" title="angielski"><a href="/eng"></a></li>
+	  </ul>
       <a class="btn btn-gold" href="#kontakt">Zapytaj o ofertę</a>
     </nav>
     <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
@@ -32,7 +37,7 @@
   <div class="wrap">
     <span class="eyebrow">Polska &nbsp;·&nbsp; Premium &nbsp;·&nbsp; Muslim-friendly</span>
     <h1>Odkryj Polskę<br>w stylu, na jaki <em>zasługujesz</em></h1>
-    <p>Ekskluzywne, w pełni zorganizowane transporty po Polsce dla gości z Bliskiego Wschodu — z poszanowaniem Waszej kultury, kuchnią halal i obsługą w standardzie premium na każdym kroku.</p>
+    <p>Ekskluzywne, w pełni zorganizowane transporty po Polsce dla gości z Bliskiego Wschodu - z poszanowaniem Waszej kultury, kuchnią halal i obsługą w standardzie premium na każdym kroku.</p>
     <div class="hero-cta">
       <a class="btn btn-gold" href="#pakiety">Zobacz pakiety</a>
       <a class="btn btn-ghost" href="#kontakt">Oferta indywidualna</a>
@@ -49,15 +54,15 @@
     <div class="sec-head" data-aos="fade-up">
       <span class="eyebrow">Nasze zasady</span>
       <h2>Sześć obietnic Falcon Nest</h2>
-      <p>Każdą podróż projektujemy wokół wartości, które są dla Was najważniejsze. To nie dodatki — to fundament naszej obsługi.</p>
+      <p>Każdą podróż projektujemy wokół wartości, które są dla Was najważniejsze. To nie dodatki - to fundament naszej obsługi.</p>
     </div>
     <div class="grid-3">
-      <div class="card" data-aos="fade-up"><svg class="ic" viewBox="0 0 48 48" fill="none"><path d="M24 4l4 8 9 1-6.5 6.5L32 37l-8-4.5L16 37l1.5-9.5L11 21l9-1z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"></path><circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.2" opacity=".4"></circle></svg><h3>Szacunek dla kultury</h3><p>Każda chwila spędzona z nami sprawi, że poczujecie pełny szacunek do tradycji oraz wartości muzułmańskich.</p></div>
+       <div class="card" data-aos="fade-up"><svg class="ic" viewBox="0 0 48 48" fill="none"><path d="M24 4l4 8 9 1-6.5 6.5L32 37l-8-4.5L16 37l1.5-9.5L11 21l9-1z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"></path><circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.2" opacity=".4"></circle></svg><h3>Szacunek dla kultury</h3><p>Każda chwila spędzona z nami sprawi, że poczujecie pełny szacunek do tradycji oraz wartości muzułmańskich.</p></div>
       <div class="card" data-aos="fade-up" data-aos-delay="80"><svg class="ic" viewBox="0 0 48 48" fill="none"><path d="M14 6v14a6 6 0 006 6v16M14 6v8M18 6v8M34 6c-3 0-5 4-5 10s2 8 5 8v18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg><h3>Kuchnia halal</h3><p>Wyłącznie restauracje i posiłki z certyfikatem halal. Dbamy o najwyższą jakość każdego dania przez całą podróż.</p></div>
       <div class="card" data-aos="fade-up" data-aos-delay="160"><svg class="ic" viewBox="0 0 48 48" fill="none"><rect x="6" y="20" width="36" height="14" rx="3" stroke="currentColor" stroke-width="1.6"></rect><path d="M12 20l4-8h16l4 8M14 34v4M34 34v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path><circle cx="15" cy="27" r="2.5" fill="currentColor"></circle><circle cx="33" cy="27" r="2.5" fill="currentColor"></circle></svg><h3>Kierowcy muzułmanie</h3><p>Profesjonalni, anglo- i arabskojęzyczni kierowcy wyznania muzułmańskiego, którzy rozumieją Wasze potrzeby.</p></div>
       <div class="card" data-aos="fade-up"><svg class="ic" viewBox="0 0 48 48" fill="none"><path d="M24 6c0 8 8 10 8 18a8 8 0 01-16 0c0-8 8-10 8-18z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"></path><path d="M12 38h24M16 42h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path></svg><h3>Praktyki religijne</h3><p>Zapewniamy czas i miejsce na modlitwę, kierunek qibla oraz dostęp do meczetów i sal modlitewnych w trasie.</p></div>
-      <div class="card" data-aos="fade-up" data-aos-delay="80"><svg class="ic" viewBox="0 0 48 48" fill="none"><path d="M24 4l5 14h15l-12 9 4.5 15L24 33 11.5 42 16 27 4 18h15z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"></path></svg><h3>Standard premium</h3><p>Hotele 5★, luksusowa flota, prywatni przewodnicy i dbałość o detale — komfort godny rodziny królewskiej.</p></div>
-      <div class="card" data-aos="fade-up" data-aos-delay="160"><svg class="ic" viewBox="0 0 48 48" fill="none"><path d="M8 24h32M24 8v32M14 14l20 20M34 14L14 34" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity=".5"></path><circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="1.8"></circle></svg><h3>Indywidualne dopasowanie</h3><p>Każdy program tworzymy od zera pod Wasze życzenia — trasa, tempo, atrakcje i budżet w pełni elastyczne.</p></div>
+      <div class="card" data-aos="fade-up" data-aos-delay="80"><svg class="ic" viewBox="0 0 48 48" fill="none"><path d="M24 4l5 14h15l-12 9 4.5 15L24 33 11.5 42 16 27 4 18h15z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"></path></svg><h3>Standard premium</h3><p>Hotele 5★, luksusowa flota, prywatni przewodnicy i dbałość o detale - komfort godny rodziny królewskiej.</p></div>
+      <div class="card" data-aos="fade-up" data-aos-delay="160"><svg class="ic" viewBox="0 0 48 48" fill="none"><path d="M8 24h32M24 8v32M14 14l20 20M34 14L14 34" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" opacity=".5"></path><circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="1.8"></circle></svg><h3>Indywidualne dopasowanie</h3><p>Każdy program tworzymy od zera pod Wasze życzenia - trasa, tempo, atrakcje i budżet w pełni elastyczne.</p></div>
     </div>
   </div>
 </section>
@@ -67,17 +72,17 @@
   <div class="wrap">
     <div class="sec-head" data-aos="fade-up">
       <span class="eyebrow">Polska, jakiej szukacie</span>
-      <h2>Zieleń, woda i przestrzeń — odpoczynek od upału</h2>
-      <p>Krystaliczne jeziora, dzikie lasy, łagodne góry i bezkresne łąki w chłodnym, europejskim klimacie. To, czego brakuje w pustynnym pejzażu — tutaj na wyciągnięcie ręki.</p>
+      <h2>Zieleń, woda i przestrzeń - odpoczynek od upału</h2>
+      <p>Krystaliczne jeziora, dzikie lasy, łagodne góry i bezkresne łąki w chłodnym, europejskim klimacie. To, czego brakuje w pustynnym pejzażu - tutaj na wyciągnięcie ręki.</p>
     </div>
     <div class="gallery">
-      <div class="gtile tall" data-aos="fade-up"><img src="/utils/images/pkg-summer.jpg" alt="Krystaliczne jezioro w górach"><div class="cap"><small>Jeziora</small><h4>Krystaliczne wody Mazur i gór</h4></div></div>
-      <div class="gtile" data-aos="fade-up"><img src="/utils/images/nat-forest.jpg" alt="Las"><div class="cap"><small>Lasy</small><h4>Dzikie, zielone lasy</h4></div></div>
-      <div class="gtile" data-aos="fade-up"><img src="/utils/images/nat-horses.jpg" alt="Konie na pastwisku"><div class="cap"><small>Pastwiska</small><h4>Konie i otwarte łąki</h4></div></div>
-      <div class="gtile" data-aos="fade-up"><img src="/utils/images/nat-green.jpg" alt="Zielone wzgórza"><div class="cap"><small>Zieleń</small><h4>Zielone doliny</h4></div></div>
-      <div class="gtile tall" data-aos="fade-up"><img src="/utils/images/nat-horse-white.jpg" alt="Koń w galopie"><div class="cap"><small>Wolność</small><h4>Przestrzeń i spokój</h4></div></div>
-      <div class="gtile" data-aos="fade-up"><img src="/utils/images/nat-mountains.jpg" alt="Góry"><div class="cap"><small>Góry</small><h4>Majestat Tatr</h4></div></div>
-      <div class="gtile" data-aos="fade-up"><img src="/utils/images/nat-meadow.jpg" alt="Łąka"><div class="cap"><small>Natura</small><h4>Bezkresne łąki</h4></div></div>
+      <div class="gtile tall" data-aos="fade-up"><img src="/utils/images/pkg-summer.webp" alt="Krystaliczne jezioro w górach"><div class="cap"><small>Jeziora</small><h4>Krystaliczne wody Mazur i gór</h4></div></div>
+      <div class="gtile" data-aos="fade-up"><img src="/utils/images/nat-forest.webp" alt="Las"><div class="cap"><small>Lasy</small><h4>Dzikie, zielone lasy</h4></div></div>
+      <div class="gtile" data-aos="fade-up"><img src="/utils/images/nat-horses.webp" alt="Konie na pastwisku"><div class="cap"><small>Pastwiska</small><h4>Konie i otwarte łąki</h4></div></div>
+      <div class="gtile" data-aos="fade-up"><img src="/utils/images/nat-green.webp" alt="Zielone wzgórza"><div class="cap"><small>Zieleń</small><h4>Zielone doliny</h4></div></div>
+      <div class="gtile tall" data-aos="fade-up"><img src="/utils/images/nat-horse-white.webp" alt="Koń w galopie"><div class="cap"><small>Wolność</small><h4>Przestrzeń i spokój</h4></div></div>
+      <div class="gtile" data-aos="fade-up"><img src="/utils/images/nat-mountains.webp" alt="Góry"><div class="cap"><small>Góry</small><h4>Majestat Tatr</h4></div></div>
+      <div class="gtile" data-aos="fade-up"><img src="/utils/images/nat-meadow.webp" alt="Łąka"><div class="cap"><small>Natura</small><h4>Bezkresne łąki</h4></div></div>
     </div>
   </div>
 </section>
@@ -88,16 +93,16 @@
     <div data-aos="fade-right">
       <span class="eyebrow">Muslim-friendly travel</span>
       <h2>Czujcie się jak <em>w domu</em>,<br>tysiące kilometrów od domu</h2>
-      <p class="lead">Wiemy, że spokój ducha jest częścią luksusu. Dlatego każdy szczegół podróży jest zgodny z Waszą wiarą i tradycją — bez kompromisów.</p>
+      <p class="lead">Wiemy, że spokój ducha jest częścią luksusu. Dlatego każdy szczegół podróży jest zgodny z Waszą wiarą i tradycją - bez kompromisów.</p>
       <a class="btn btn-gold" href="#kontakt">Porozmawiajmy o Waszych potrzebach</a>
     </div>
     <ul class="check-list" data-aos="fade-left">
-      <li><span><b>Posiłki halal</b> — sprawdzone restauracje, catering w hotelu i opcje na wynos w trasie.</span></li>
-      <li><span><b>Przestrzeń na modlitwę</b> — plan dnia uwzględnia czasy salah, kierunek qibla i dostęp do meczetów.</span></li>
-      <li><span><b>Prywatność rodzinna</b> — dyskretne hotele, prywatny transport, możliwość wydzielonej obsługi dla pań.</span></li>
-      <li><span><b>Przewodniczki dla pań</b> — kobiety-przewodnicy na życzenie, mówiące po angielsku lub arabsku.</span></li>
-      <li><span><b>Brak alkoholu</b> w zamawianych przez nas usługach — pełna kontrola nad otoczeniem.</span></li>
-      <li><span><b>Concierge mówiący po arabsku</b> — wsparcie 24/7 przez cały pobyt, także na WhatsApp.</span></li>
+      <li><span><b>Posiłki halal</b> - sprawdzone restauracje, catering w hotelu i opcje na wynos w trasie.</span></li>
+      <li><span><b>Przestrzeń na modlitwę</b> - plan dnia uwzględnia czasy salah, kierunek qibla i dostęp do meczetów.</span></li>
+      <li><span><b>Prywatność rodzinna</b> - dyskretne hotele, prywatny transport, możliwość wydzielonej obsługi dla pań.</span></li>
+      <li><span><b>Przewodniczki dla pań</b> - kobiety-przewodnicy na życzenie, mówiące po angielsku lub arabsku.</span></li>
+      <li><span><b>Brak alkoholu</b> w zamawianych przez nas usługach - pełna kontrola nad otoczeniem.</span></li>
+      <li><span><b>Concierge mówiący po arabsku</b> - wsparcie 24/7 przez cały pobyt, także na WhatsApp.</span></li>
     </ul>
   </div>
 </section>
@@ -107,26 +112,26 @@
   <div class="wrap">
     <div class="sec-head" data-aos="fade-up">
       <span class="eyebrow">Pakiety podróży</span>
-      <h2>Gotowe inspiracje — szyte na miarę</h2>
+      <h2>Gotowe inspiracje - szyte na miarę</h2>
       <p>Poniższe programy to punkt wyjścia. Każdy dopasujemy do liczby osób, terminu i Waszych oczekiwań. Ceny orientacyjne, od osoby.</p>
     </div>
     <div class="pkg-grid">
 
       <div class="pkg" data-aos="fade-up">
-        <div class="pkg-img"><img src="/utils/images/pkg-winter.jpg" alt="Zimowe Tatry"><span class="pkg-season">Zima · Egzotyka śniegu</span></div>
+        <div class="pkg-img"><img src="/utils/images/pkg-winter.webp" alt="Zimowe Tatry"><span class="pkg-season">Zima · Egzotyka śniegu</span></div>
         <div class="pkg-top"><h3>Białe Tatry</h3><div class="pkg-days">6 dni / 5 nocy · Zakopane &amp; Kraków</div></div>
         <div class="pkg-body"><ul>
-          <li>Pierwszy raz w śniegu — sanie, kulig, nartostrady</li>
+          <li>Pierwszy raz w śniegu - sanie, kulig, nartostrady</li>
           <li>Lot helikopterem nad ośnieżonymi szczytami</li>
           <li>Termy z basenami i prywatnym SPA</li>
           <li>Hotel 5★ z widokiem na góry</li>
           <li>Prywatny przewodnik i transfery premium</li>
         </ul></div>
-        <div class="pkg-foot"><div class="pkg-price"><small>Cena orientacyjna od</small><b>1 800 €<span> / os.</span></b></div><a class="btn btn-ghost" href="#kontakt">Zapytaj o termin</a></div>
+        {*<div class="pkg-foot"><div class="pkg-price"><small>Cena orientacyjna od</small><b>1 800 €<span> / os.</span></b></div><a class="btn btn-ghost" href="#kontakt">Zapytaj o termin</a></div>*}
       </div>
 
       <div class="pkg featured" data-aos="fade-up" data-aos-delay="80">
-        <div class="pkg-img"><span class="pkg-badge">Bestseller</span><img src="/utils/images/pkg-summer.jpg" alt="Letnie jeziora i góry"><span class="pkg-season">Lato · Ucieczka od upału</span></div>
+        <div class="pkg-img"><span class="pkg-badge">Bestseller</span><img src="/utils/images/pkg-summer.webp" alt="Letnie jeziora i góry"><span class="pkg-season">Lato · Ucieczka od upału</span></div>
         <div class="pkg-top"><h3>Zielone Lato</h3><div class="pkg-days">7 dni / 6 nocy · Góry &amp; jeziora</div></div>
         <div class="pkg-body"><ul>
           <li>Chłodny klimat 20–25°C zamiast 45°C w domu</li>
@@ -135,20 +140,20 @@
           <li>Resorty 5★ wśród natury, rodzinne apartamenty</li>
           <li>Pełen relaks dla całej rodziny</li>
         </ul></div>
-        <div class="pkg-foot"><div class="pkg-price"><small>Cena orientacyjna od</small><b>2 100 €<span> / os.</span></b></div><a class="btn btn-gold" href="#kontakt">Zapytaj o termin</a></div>
+        {*<div class="pkg-foot"><div class="pkg-price"><small>Cena orientacyjna od</small><b>2 100 €<span> / os.</span></b></div><a class="btn btn-gold" href="#kontakt">Zapytaj o termin</a></div>*}
       </div>
 
       <div class="pkg" data-aos="fade-up" data-aos-delay="160">
-        <div class="pkg-img"><img src="/utils/images/pkg-city.jpg" alt="Kraków - Rynek Główny"><span class="pkg-season">Cały rok · Miasto &amp; kultura</span></div>
+        <div class="pkg-img"><img src="/utils/images/pkg-city.webp" alt="Kraków - Rynek Główny"><span class="pkg-season">Cały rok · Miasto &amp; kultura</span></div>
         <div class="pkg-top"><h3>Korona Polski</h3><div class="pkg-days">5 dni / 4 noce · Warszawa &amp; Kraków</div></div>
         <div class="pkg-body"><ul>
           <li>Zabytki, zamki królewskie i starówki UNESCO</li>
-          <li>Ekskluzywne zakupy — galerie i butiki premium</li>
+          <li>Ekskluzywne zakupy - galerie i butiki premium</li>
           <li>Fine dining halal w najlepszych lokalach</li>
           <li>Hotele 5★ w sercu miast</li>
           <li>Prywatny przewodnik znający historię regionu</li>
         </ul></div>
-        <div class="pkg-foot"><div class="pkg-price"><small>Cena orientacyjna od</small><b>1 500 €<span> / os.</span></b></div><a class="btn btn-ghost" href="#kontakt">Zapytaj o termin</a></div>
+        {*<div class="pkg-foot"><div class="pkg-price"><small>Cena orientacyjna od</small><b>1 500 €<span> / os.</span></b></div><a class="btn btn-ghost" href="#kontakt">Zapytaj o termin</a></div>*}
       </div>
 
     </div>
@@ -159,12 +164,12 @@
         <div class="grand-copy">
           <span class="pkg-season pkg-season-static">Podróż marzeń · 10–12 dni</span>
           <h3>Zjedźcie z nami Polskę wzdłuż i wszerz</h3>
-          <p>Warszawa, Kraków, Tatry i Trójmiasto nad Bałtykiem — kompletne doświadczenie Polski, od miast po góry i morze. W pełni prywatne, w rytmie Waszej rodziny.</p>
+          <p>Warszawa, Kraków, Tatry i Trójmiasto nad Bałtykiem - kompletne doświadczenie Polski, od miast po góry i morze. W pełni prywatne, w rytmie Waszej rodziny.</p>
         </div>
-        <div class="grand-price grand-price-right">
+        {*<div class="grand-price grand-price-right">
           <small>Cena orientacyjna od</small><b>3 400 €<span> / os.</span></b>
           <div><a class="btn btn-gold btn-grand-plan" href="#kontakt">Stwórz mój plan</a></div>
-        </div>
+        </div>*}
       </div>
     </div>
   </div>
@@ -173,12 +178,12 @@
 <!-- ===== INCLUDED ===== -->
 <section class="included">
   <div class="wrap">
-    <div class="sec-head" data-aos="fade-up"><span class="eyebrow">Co zawsze w cenie</span><h2>Wszystko zorganizowane za Was</h2><p>Przylatujecie i cieszycie się podróżą — całą resztą zajmujemy się my.</p></div>
+    <div class="sec-head" data-aos="fade-up"><span class="eyebrow">Co zawsze w cenie</span><h2>Wszystko zorganizowane za Was</h2><p>Przylatujecie i cieszycie się podróżą - całą resztą zajmujemy się my.</p></div>
     <div class="grid-4">
       <div class="feat" data-aos="fade-up"><svg class="ic" viewBox="0 0 48 48" fill="none"><path d="M6 30l36-14-6 16-9-3-5 7-2-8z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"></path></svg><h4>VIP na lotnisku</h4><p>Powitanie, fast-track i transfer prosto do hotelu.</p></div>
       <div class="feat" data-aos="fade-up" data-aos-delay="80"><svg class="ic" viewBox="0 0 48 48" fill="none"><rect x="4" y="20" width="40" height="13" rx="3" stroke="currentColor" stroke-width="1.6"></rect><path d="M10 20l5-7h18l5 7M12 33v4M36 33v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path></svg><h4>Flota premium</h4><p>Mercedes V-Class / Sprinter z prywatnym kierowcą 24/7.</p></div>
       <div class="feat" data-aos="fade-up" data-aos-delay="160"><svg class="ic" viewBox="0 0 48 48" fill="none"><path d="M8 40V18l16-10 16 10v22M16 40V28h16v12" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"></path></svg><h4>Hotele 5★</h4><p>Najlepsze adresy, apartamenty rodzinne, śniadania.</p></div>
-      <div class="feat" data-aos="fade-up" data-aos-delay="240"><svg class="ic" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="1.6"></circle><path d="M24 14v10l7 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path></svg><h4>Concierge 24/7</h4><p>Opiekun mówiący po arabsku — telefon i WhatsApp.</p></div>
+      <div class="feat" data-aos="fade-up" data-aos-delay="240"><svg class="ic" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="1.6"></circle><path d="M24 14v10l7 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path></svg><h4>Concierge 24/7</h4><p>Opiekun mówiący po arabsku - telefon i WhatsApp.</p></div>
     </div>
   </div>
 </section>
@@ -188,14 +193,14 @@
   <div class="wrap">
     <div class="sec-head" data-aos="fade-up"><span class="eyebrow">Co pokochacie w Polsce</span><h2>Doświadczenia szyte pod Wasz gust</h2></div>
     <div class="attr-grid">
-      <div class="attr" data-aos="fade-up"><img src="/utils/images/nat-mountains.jpg" alt="Tatry"><div class="cap"><h4>Góry i Tatry</h4><p>Szczyty, doliny i widoki, jakich nie ma w Zatoce.</p></div></div>
-      <div class="attr" data-aos="fade-up" data-aos-delay="60"><img src="/utils/images/pkg-summer.jpg" alt="Jeziora Mazur"><div class="cap"><h4>Jeziora Mazur</h4><p>Rejsy i krystaliczna woda Krainy Tysiąca Jezior.</p></div></div>
-      <div class="attr" data-aos="fade-up" data-aos-delay="120"><img src="/utils/images/nat-forest.jpg" alt="Lasy"><div class="cap"><h4>Lasy i natura</h4><p>Dzikie puszcze, spacery i czyste, chłodne powietrze.</p></div></div>
-      <div class="attr" data-aos="fade-up" data-aos-delay="180"><img src="/utils/images/nat-horses.jpg" alt="Konie"><div class="cap"><h4>Konie i pastwiska</h4><p>Stadniny, przejażdżki i sielski klimat wsi.</p></div></div>
-      <div class="attr" data-aos="fade-up"><img src="/utils/images/nat-green.jpg" alt="Zielone doliny"><div class="cap"><h4>Zielone doliny</h4><p>Łagodne wzgórza i bujna zieleń w lecie.</p></div></div>
-      <div class="attr" data-aos="fade-up" data-aos-delay="60"><img src="/utils/images/spa.jpg" alt="Termy i SPA"><div class="cap"><h4>Termy &amp; SPA</h4><p>Gorące baseny mineralne i prywatne strefy wellness.</p></div></div>
-      <div class="attr" data-aos="fade-up" data-aos-delay="120"><img src="/utils/images/oldtown.jpg" alt="Starówki i kultura"><div class="cap"><h4>Zamki i kultura</h4><p>Starówki UNESCO, zamki królewskie, zakupy premium.</p></div></div>
-      <div class="attr" data-aos="fade-up" data-aos-delay="180"><img src="/utils/images/baltic.jpg" alt="Bałtyk"><div class="cap"><h4>Bałtyk i Trójmiasto</h4><p>Plaże, rejsy i nadmorski klimat północy.</p></div></div>
+      <div class="attr" data-aos="fade-up"><img src="/utils/images/nat-mountains.webp" alt="Tatry"><div class="cap"><h4>Góry i Tatry</h4><p>Szczyty, doliny i widoki, jakich nie ma w Zatoce.</p></div></div>
+      <div class="attr" data-aos="fade-up" data-aos-delay="60"><img src="/utils/images/pkg-summer.webp" alt="Jeziora Mazur"><div class="cap"><h4>Jeziora Mazur</h4><p>Rejsy i krystaliczna woda Krainy Tysiąca Jezior.</p></div></div>
+      <div class="attr" data-aos="fade-up" data-aos-delay="120"><img src="/utils/images/nat-forest.webp" alt="Lasy"><div class="cap"><h4>Lasy i natura</h4><p>Dzikie puszcze, spacery i czyste, chłodne powietrze.</p></div></div>
+      <div class="attr" data-aos="fade-up" data-aos-delay="180"><img src="/utils/images/nat-horses.webp" alt="Konie"><div class="cap"><h4>Konie i pastwiska</h4><p>Stadniny, przejażdżki i sielski klimat wsi.</p></div></div>
+      <div class="attr" data-aos="fade-up"><img src="/utils/images/nat-green.webp" alt="Zielone doliny"><div class="cap"><h4>Zielone doliny</h4><p>Łagodne wzgórza i bujna zieleń w lecie.</p></div></div>
+      <div class="attr" data-aos="fade-up" data-aos-delay="60"><img src="/utils/images/spa.webp" alt="Termy i SPA"><div class="cap"><h4>Termy &amp; SPA</h4><p>Gorące baseny mineralne i prywatne strefy wellness.</p></div></div>
+      <div class="attr" data-aos="fade-up" data-aos-delay="120"><img src="/utils/images/oldtown.webp" alt="Starówki i kultura"><div class="cap"><h4>Zamki i kultura</h4><p>Starówki UNESCO, zamki królewskie, zakupy premium.</p></div></div>
+      <div class="attr" data-aos="fade-up" data-aos-delay="180"><img src="/utils/images/baltic.webp" alt="Bałtyk"><div class="cap"><h4>Bałtyk i Trójmiasto</h4><p>Plaże, rejsy i nadmorski klimat północy.</p></div></div>
     </div>
   </div>
 </section>
@@ -219,7 +224,7 @@
   <div class="wrap">
     <span class="eyebrow">Zaczynamy?</span>
     <h2>Pozwólcie zabrać się na przygodę<br><em>pełną widoków i atrakcji, jakich nie doświadczycie nigdzie indziej</em></h2>
-    <p>Napiszcie do nas — przygotujemy spersonalizowaną propozycję bez zobowiązań. Odpowiadamy szybko, także po arabsku, na WhatsApp.</p>
+    <p>Napiszcie do nas - przygotujemy spersonalizowaną propozycję bez zobowiązań. Odpowiadamy szybko, także po arabsku, na WhatsApp.</p>
     <div class="contact-row">
       <a class="contact-card" href="https://wa.me/48507772121" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.5 15.2L2 22l4.9-1.5A10 10 0 1012 2zm0 18a8 8 0 01-4.1-1.1l-.3-.2-2.9.9.9-2.8-.2-.3A8 8 0 1112 20zm4.4-6c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1-.2.2-.6.8-.8.9-.1.2-.3.2-.5.1-.7-.3-1.4-.6-2-1.4-.4-.5-.8-1-.9-1.2-.1-.2 0-.4.1-.5l.4-.4c.1-.1.2-.3.2-.4 0-.2 0-.3-.1-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.4 0-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.4c.1.2 1.6 2.5 4 3.4.6.3 1 .4 1.4.5.6.2 1.1.2 1.5.1.5-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1z"></path></svg>WhatsApp: +48 507 772 121</a>
       <a class="contact-card" href="tel:+48507772121"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h4l2 5-3 2a12 12 0 005 5l2-3 5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z" stroke-linejoin="round"></path></svg>+48 507 772 121</a>
@@ -230,13 +235,13 @@
 
 <!-- ===== FOOTER ===== -->
 <footer>
-  <div class="wrap">
-    <a class="brand" href="#top">
-      <svg class="brand-mark" viewBox="0 0 64 64" fill="none"><path d="M8 42c9-3 15-12 24-23 9 11 15 20 24 23" stroke="#e7c976" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"></path><path d="M20 42c5-4 8-9 12-15 4 6 7 11 12 15" stroke="#c9a24b" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-      <span class="brand-txt"><b>FALCO<span>NEST</span></b><small>Luxury &amp; Bespoke Tours</small></span>
-    </a>
-    <p>© 2026 Falcon Nest Poland · Luksusowe podróże do Polski dla gości z Bliskiego Wschodu</p>
-    <p class="note">Przedstawione programy, ceny i zdjęcia mają charakter orientacyjny i poglądowy — ostateczna oferta przygotowywana jest indywidualnie i zależy od terminu, liczby osób, wybranych hoteli oraz zakresu usług. Niniejsza strona nie stanowi oferty handlowej w rozumieniu Kodeksu cywilnego.</p>
+  <div class="wrap" style=" text-align: center; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; ">
+	<a class="brand" href="#top">
+		<img src="/utils/images/logo-new.png">
+	</a>
+
+    <p style="width:100%;">© 2026 Falcon Nest Poland · Luksusowe podróże do Polski dla gości z Bliskiego Wschodu</p>
+    <p class="note">Przedstawione programy, ceny i zdjęcia mają charakter orientacyjny i poglądowy - ostateczna oferta przygotowywana jest indywidualnie i zależy od terminu, liczby osób, wybranych hoteli oraz zakresu usług. Niniejsza strona nie stanowi oferty handlowej w rozumieniu Kodeksu cywilnego.</p>
   </div>
 </footer>
 </main>

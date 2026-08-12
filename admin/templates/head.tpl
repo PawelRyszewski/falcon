@@ -52,20 +52,20 @@
 			</li>	
 			{*<li>
 				<a href="/admin/aktualnosci"><span class="icon-menu-aktualnosci "></span>Blog</a>
-			</li>*}
+			</li>
             <li>
 				<a href="/admin/galeria-zdjec/edytuj/60"><span class="icon-menu-galeria"></span>Galeria zdjęć</a>
-            </li>
+            </li>*}
             <li>
 				<a href="/admin/uzytkownicy"><span class="icon-menu-uzytkownicy"></span>Użytkownicy</a>
             </li>
-            <li>
+            {*<li>
                 <a href="/admin/nieruchomosci"><span class="icon-menu-nieruchomosci"></span>Nieruchomości</a>
             </li>
 					
             <li>
                 <a href="/admin/newsletter"><span class="icon-menu-poczta"></span>F.Kont. / Newsl.</a>
-            </li>
+            </li>*}
             <li>
                 <a href="/admin/poczta"><span class="icon-menu-poczta"></span>Poczta</a>
             </li>

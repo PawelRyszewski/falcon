@@ -1,5 +1,4 @@
-php_value log_errors 1
-php_value error_log /home/klient.dhosting.pl/mekros/ai.skpkj.pl/logs/php/php_errors.log
+php_value log_errors 0
 
 RewriteEngine On
 RewriteRule ^ai-materials/pages_import\.php$ - [L]
@@ -10,7 +9,7 @@ RemoveHandler .html
 Options All -Indexes
 
 RewriteCond %{HTTP_HOST} ^www\. [NC]
-RewriteRule .* https://skpkj.eko-dom.warszawa.pl/%{REQUEST_URI} [L,R=301]
+RewriteRule .* https://falcon.skpkj.pl/%{REQUEST_URI} [L,R=301]
 
 RewriteCond %{HTTPS} off
 RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
@@ -22,8 +21,8 @@ RewriteRule ^js/(.*)$ js/$1 [L]
 RewriteRule ^utils/(.*)$ utils/$1 [L]
 
 RewriteRule ^styles/(.*)$ styles/$1 [L]
-RewriteRule ^robots.txt$ https://skpkj.eko-dom.warszawa.pl/robots.txt [L]
-RewriteRule ^mail.php$ https://skpkj.eko-dom.warszawa.pl/mail.php [L]
+RewriteRule ^robots.txt$ https://falcon.skpkj.pl/robots.txt [L]
+RewriteRule ^mail.php$ https://falcon.skpkj.pl/mail.php [L]
 
 
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -49,9 +48,7 @@ RewriteRule ^([a-zA-Z0-9-_\.]+)/([a-zA-Z0-9-_,.]+)/([a-zA-Z0-9-_,.]+)$ /index.ph
 	ExpiresByType text/xml "access plus 60 minutes"
 </IfModule>
 
-
-
-ErrorDocument 404 https://skpkj.eko-dom.warszawa.pl/blad404/28
+ErrorDocument 404 https://falcon.skpkj.pl/blad404/28
 
 AuthType Basic  
 AuthName "restricted area"  

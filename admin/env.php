@@ -1,11 +1,11 @@
 <?php
-putenv('HOST=mekros.mysql.dhosting.pl');
-putenv('DB_NAME=nei4ja_falconsk');
-putenv('USERNAME=dahz9c_falconsk');
-putenv('PASSWORD=yiuCaiRahgh3');
+putenv('HOST=');
+putenv('DB_NAME=');
+putenv('USERNAME=');
+putenv('PASSWORD=');
 putenv('ENVIRONMENT=');
 
-putenv('MAIL_FROM=pawelr@mekros.com');
+putenv('MAIL_FROM=');
 
 putenv('MAIL_SMTP_HOST=smtp.dpoczta.pl');
 putenv('MAIL_SMTP_PORT=587');
